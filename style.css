@@ -1,0 +1,116 @@
+header{
+    background-color: aquamarine;
+    height: 80px;
+    width: 1100px;
+}
+main{
+    background-color: #fff;
+     width: 1100px;
+}
+article{
+    background-color: brown;
+    height: 400px;
+    width: 1100px;
+}
+nav{
+    background-color:#fff ;
+    height: 70px;
+    width: 1100px;
+}
+
+footer{
+    background-color: bisque;
+    height: 150px;
+    width: 1100px;
+}
+
+#logo{
+    position: relative;
+    left: 400px ;
+    bottom: 50px;
+
+}
+
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 10px;
+    position: relative;
+    left: 50px;
+        
+}
+
+#barra1{
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-size: 10px;
+    color: grey;
+   }
+#barra2{
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-size: 10px;
+    color: grey;
+}
+#barra3{
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    font-size: 10px;
+    color: grey;
+}
+
+ 
+* {
+    margin:0px;
+    padding:0px;
+}
+
+#menu {
+    margin:auto;
+    width:1200px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px ;
+    
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:rgba(255, 255, 255, 0.555);
+    
+    color: grey;
+    text-decoration:none;
+    padding:8px 10px;
+    display:block;
+}
+
+
+
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+    font-size: 6px;     
+    background-color: transparent;
+}
+
